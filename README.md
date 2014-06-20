@@ -5,7 +5,7 @@ It describes the steps taken in the R script run_analysis.R (in this GitHub repo
 
 The data for the project was downloaded from:
 
-<a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"</a>
+<a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">Coursera Repository</a>
 
  The projet requirement was: create one R script called run_analysis.R that does the following: 
 
