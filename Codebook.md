@@ -21,25 +21,25 @@ These signals were used to estimate variables of the feature vector for each pat
 
 
 There are 33 main variables names:
-
-tBodyAcc.XYZ
-tGravityAcc.XYZ
-tBodyAccJerk.XYZ
-tBodyGyro.XYZ
-tBodyGyroJerk.XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc.XYZ
-fBodyAccJerk.XYZ
-fBodyGyro.XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
+<ol>
+<li>tBodyAcc.XYZ</li>
+<li>tGravityAcc.XYZ</li>
+<li>tBodyAccJerk.XYZ</li>
+<li>tBodyGyro.XYZ</li>
+<li>tBodyGyroJerk.XYZ</li>
+<li>tBodyAccMag</li>
+<li>tGravityAccMag</li>
+<li>tBodyAccJerkMag</li>
+<li>tBodyGyroMag</li>
+<li>tBodyGyroJerkMag</li>
+<li>fBodyAcc.XYZ</li>
+<li>fBodyAccJerk.XYZ</li>
+<li>fBodyGyro.XYZ</li>
+<li>fBodyAccMag</li>
+<li>fBodyAccJerkMag</li>
+<li>fBodyGyroMag</li>
+<li>fBodyGyroJerkMag</li>
+</ol>
 
 For each of the 33 variables above we used their mean values 'mean' and standard deviation 'std' for the processing,
 coming to a total of 66 variables. Ex: tBodyAcc.mean.X, tBodyGyro.std.Y and so on.
@@ -48,7 +48,8 @@ coming to a total of 66 variables. Ex: tBodyAcc.mean.X, tBodyGyro.std.Y and so o
 
 
 There are two other variables in the "tidydata.txt" file:
-
-*<b>activity_name/b>: Stores the descriptive name of the activity the person was performing when the data were acquired.
-Can take the values: 'WALKING','WALKING_UPSTAIRS','WALKING_DOWNSTAIRS','SITTING','STANDING','LAYING'.
-*<b>subject_id</b>: THe identification of the person performing the activities. Can take numeric values from '1' to '30'.
+<ol>
+<li><b>activity_name</b>: Stores the descriptive name of the activity the person was performing when the data were acquired.
+Can take the values: 'WALKING','WALKING_UPSTAIRS','WALKING_DOWNSTAIRS','SITTING','STANDING','LAYING'.</li>
+<li><b>subject_id</b>: THe identification of the person performing the activities. Can take numeric values from '1' to '30'.</li>
+</ol>
